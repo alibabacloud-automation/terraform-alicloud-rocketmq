@@ -181,9 +181,6 @@ variable "instance_config" {
         flow_out_bandwidth = 30
       }
     }
-    software = {
-      maintain_time = "02:00-06:00"
-    }
     acl_info = {
       acl_types             = ["default", "apache_acl"]
       default_vpc_auth_free = false
